@@ -13,7 +13,7 @@ def string_reverse(input_string):
     reverse_input = ''
     i = 1
    #write your for loop here
-    while i < len(input_string):
+    while i < len(input_string) + 1:
         reverse_input += str(input_string[len(input_string) - i ])
         i += 1
     return str(reverse_input)
